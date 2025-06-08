@@ -38,6 +38,6 @@ func main() {
         fmt.Printf("Request #%d sent. Status: %s\n", i, resp.Status)
         resp.Body.Close()
 
-        time.Sleep(1 * time.Second)
+        time.Sleep(0 * time.Second)
     }
 }
